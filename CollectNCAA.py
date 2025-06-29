@@ -25,6 +25,9 @@ driver = webdriver.Chrome(options=chrome_options)
 # Open the NCAA stats website
 driver.get("https://www.ncaa.com/stats/basketball-men/d1")
 
+# FCS
+#driver.get("https://www.ncaa.com/stats/football/fcs")
+
 # Close Possible March Madness Pop-Up
 try:
     mm_popup = WebDriverWait(driver, 2).until(
