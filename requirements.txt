@@ -2,6 +2,3 @@ selenium
 pandas
 webdriver-manager
 msedge-selenium-tools
-beautifulsoup4
-lxml
-openpyxl
